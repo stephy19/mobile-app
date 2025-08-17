@@ -1,50 +1,92 @@
-# Welcome to your Expo app 👋
+1 # Casa - Application de Location de Maisons
+    2
+    3 Une application mobile pour trouver et louer des maisons. Cette application permet aux
+      utilisateurs de parcourir les annonces, de voir les détails des propriétés et de
+      contacter les propriétaires. Elle est développée avec React Native, offrant une
+      expérience fluide sur iOS et Android.
+    4
+    5 ## 🚀 Fonctionnalités
+    6
+    7 -   **Authentification des utilisateurs** : Inscription et connexion sécurisées.
+    8 -   **Navigation intuitive** : Parcourez et recherchez facilement des propriétés.
+    9 -   **Filtres avancés** : Filtrez les propriétés par prix, emplacement, taille, etc.
+   10 -   **Détails complets** : Visualisez les détails de la propriété, y compris les
+      photos, les commodités et l'emplacement sur la carte.
+   11 -   **Favoris** : Enregistrez les propriétés qui vous intéressent pour les retrouver
+      plus tard.
+   12 -   **Contact direct** : Mettez-vous en relation avec les propriétaires directement
+      depuis l'application.
+   13 -   **(Pour les propriétaires)** : Interface pour lister et gérer facilement vos
+      propriétés.
+   14
+   15 ## 📸 Captures d'écran
+   16
+   17 | Écran d'accueil                                    | Écran de recherche
+      | Détails de la propriété                                |
+   18 | -------------------------------------------------- |
+      ------------------------------------------------------ |
+      ------------------------------------------------------ |
+   19 | ![Placeholder pour l'écran d'accueil](
+      https://via.placeholder.com/300x600.png?text=Écran+d'accueil) | ![Placeholder pour
+      l'écran de recherche](https://via.placeholder.com/300x600.png?text=Écran+de+recherche)
+      | ![Placeholder pour les détails](
+      https://via.placeholder.com/300x600.png?text=Détails+propriété) |
+   20
+   21 ## 🛠️ Stack Technique
+   22
+   23 -   **Framework** : [React Native](https://reactnative.dev/)
+   24 -   **Gestion de projet** : [Expo](https://expo.dev/)
+   25 -   **Navigation** : [React Navigation](https://reactnavigation.org/)
+   26 -   **Backend & Base de données** : [Firebase](https://firebase.google.com/) (ou votre
+      backend)
+   27 -   **Style** : [Styled Components](https://styled-components.com/), [NativeWind](
+      https://www.nativewind.dev/), ou les feuilles de style React Native.
+   28
+   29 ## ⚙️ Installation
+   30
+   31 Assurez-vous d'avoir [Node.js](https://nodejs.org/) (version 16+), [Watchman](
+      https://facebook.github.io/watchman/) (pour macOS) et [Expo Go](https://expo.dev/client
+      ) sur votre appareil mobile.
+   32
+   33 1.  **Clonez le dépôt :**
+      git clone https://github.com/votre-utilisateur/votre-projet.git
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+   1
+   2 2.  **Naviguez vers le répertoire du projet :**
+      cd votre-projet
+   1
+   2 3.  **Installez les dépendances :**
+      npm install
+  Ou si vous utilisez Yarn
+  yarn install
 
-## Get started
+   1
+   2 ## ▶️ Lancer l'application
+   3
+   4 1.  **Démarrez le serveur de développement Metro :**
+      npx expo start
 
-1. Install dependencies
-
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+    1
+    2 2.  **Lancez l'application :**
+    3     -   Scannez le code QR affiché dans le terminal avec l'application **Expo Go** sur
+      votre téléphone (Android ou iOS).
+    4     -   Ou, pour lancer sur un simulateur/émulateur :
+    5         -   Appuyez sur `i` pour le simulateur iOS.
+    6         -   Appuyez sur `a` pour l'émulateur Android.
+    7
+    8 ## 🤝 Contribuer
+    9
+   10 Les contributions sont les bienvenues ! Si vous souhaitez améliorer cette application,
+      veuillez suivre ces étapes :
+   11
+   12 1.  **Forkez** le dépôt.
+   13 2.  Créez une nouvelle branche (`git checkout -b feature/amelioration-incroyable`).
+   14 3.  Faites vos modifications et **committez-les** (`git commit -m 'Ajout d'une
+      amélioration incroyable'`).
+   15 4.  **Poussez** vers la branche (`git push origin feature/amelioration-incroyable`).
+   16 5.  Ouvrez une **Pull Request**.
+   17
+   18 ## 📄 Licence
+   19
+   20 Ce projet est distribué sous la licence MIT. Voir le fichier `LICENSE` pour plus de
+      détails.
