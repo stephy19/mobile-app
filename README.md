@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 1 # Casa - Application de Location de Maisons
     2
     3 Une application mobile pour trouver et louer des maisons. Cette application permet aux
@@ -90,3 +91,80 @@
    19
    20 Ce projet est distribué sous la licence MIT. Voir le fichier `LICENSE` pour plus de
       détails.
+=======
+# Casa - Application de Location de Maisons
+
+Une application mobile pour trouver et louer des maisons. Cette application permet aux utilisateurs de parcourir les annonces, de voir les détails des propriétés et de contacter les propriétaires. Elle est développée avec React Native, offrant une expérience fluide sur iOS et Android.
+
+## 🚀 Fonctionnalités
+
+-   **Authentification des utilisateurs** : Inscription et connexion sécurisées.
+-   **Navigation intuitive** : Parcourez et recherchez facilement des propriétés.
+-   **Filtres avancés** : Filtrez les propriétés par prix, emplacement, taille, etc.
+-   **Détails complets** : Visualisez les détails de la propriété, y compris les photos, les commodités et l'emplacement sur la carte.
+-   **Favoris** : Enregistrez les propriétés qui vous intéressent pour les retrouver plus tard.
+-   **Contact direct** : Mettez-vous en relation avec les propriétaires directement depuis l'application.
+-   **(Pour les propriétaires)** : Interface pour lister et gérer facilement vos propriétés.
+
+## 📸 Captures d'écran
+
+| Écran d'accueil                                    | Écran de recherche                                     | Détails de la propriété                                |
+| -------------------------------------------------- | ------------------------------------------------------ | ------------------------------------------------------ |
+| ![Placeholder pour l'écran d'accueil](https://via.placeholder.com/300x600.png?text=Écran+d'accueil) | ![Placeholder pour l'écran de recherche](https://via.placeholder.com/300x600.png?text=Écran+de+recherche) | ![Placeholder pour les détails](https://via.placeholder.com/300x600.png?text=Détails+propriété) |
+
+## 🛠️ Stack Technique
+
+-   **Framework** : [React Native](https://reactnative.dev/)
+-   **Gestion de projet** : [Expo](https://expo.dev/)
+-   **Navigation** : [React Navigation](https://reactnavigation.org/)
+-   **Backend & Base de données** : [Firebase](https://firebase.google.com/) (ou votre backend)
+-   **Style** : [Styled Components](https://styled-components.com/), [NativeWind](https://www.nativewind.dev/), ou les feuilles de style React Native.
+
+## ⚙️ Installation
+
+Assurez-vous d'avoir [Node.js](https://nodejs.org/) (version 16+), [Watchman](https://facebook.github.io/watchman/) (pour macOS) et [Expo Go](https://expo.dev/client) sur votre appareil mobile.
+
+1.  **Clonez le dépôt :**
+    ```bash
+    git clone https://github.com/votre-utilisateur/votre-projet.git
+    ```
+
+2.  **Naviguez vers le répertoire du projet :**
+    ```bash
+    cd votre-projet
+    ```
+
+3.  **Installez les dépendances :**
+    ```bash
+    npm install
+    # Ou si vous utilisez Yarn
+    # yarn install
+    ```
+
+## ▶️ Lancer l'application
+
+1.  **Démarrez le serveur de développement Metro :**
+    ```bash
+    npx expo start
+    ```
+
+2.  **Lancez l'application :**
+    -   Scannez le code QR affiché dans le terminal avec l'application **Expo Go** sur votre téléphone (Android ou iOS).
+    -   Ou, pour lancer sur un simulateur/émulateur :
+        -   Appuyez sur `i` pour le simulateur iOS.
+        -   Appuyez sur `a` pour l'émulateur Android.
+
+## 🤝 Contribuer
+
+Les contributions sont les bienvenues ! Si vous souhaitez améliorer cette application, veuillez suivre ces étapes :
+
+1.  **Forkez** le dépôt.
+2.  Créez une nouvelle branche (`git checkout -b feature/amelioration-incroyable`).
+3.  Faites vos modifications et **committez-les** (`git commit -m 'Ajout d'une amélioration incroyable'`).
+4.  **Poussez** vers la branche (`git push origin feature/amelioration-incroyable`).
+5.  Ouvrez une **Pull Request**.
+
+## 📄 Licence
+
+Ce projet est distribué sous la licence MIT. Voir le fichier `LICENSE` pour plus de détails.
+>>>>>>> 9e74ba7 (Sauvegarde des modifications locales)
