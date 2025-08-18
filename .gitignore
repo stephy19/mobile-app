@@ -35,5 +35,6 @@ yarn-error.*
 
 # typescript
 *.tsbuildinfo
-
+app.json
+release.keystore
 app-example
